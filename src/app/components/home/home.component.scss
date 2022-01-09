@@ -1,0 +1,169 @@
+.example-container {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 25px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    justify-content:center;
+    h1{
+      margin-bottom: 15px;
+      text-align: center;
+      color: rgb(179, 21, 126);
+      font-weight: bold;
+    }
+    
+    .hh2{
+      text-align: center;
+      color: crimson;
+      font-weight: bold;
+      font-size: large;
+      margin-top: 15px;
+      margin-bottom: 19px;
+      border: solid 1px rgb(179, 21, 126);
+      border-radius: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+    }
+
+    h2{
+      margin-bottom: 15px;
+      margin-top: 20px;
+      text-align: center;
+      color:rgb(255, 96, 22);
+      font-weight: bold;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .form-control{
+      width: fit-content;
+    }
+    
+}
+  
+  .example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    margin-right: 20px;
+
+    
+    .addicon{
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;      
+    }
+    
+  }
+  .addBtn{
+    margin-left: 20px;
+  }
+  
+  .tarih{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    margin-top:0px;
+  }
+
+  .example-list-extended{
+    border: solid 2px rebeccapurple;
+    //min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    margin-right: 20px;
+    justify-content: flex-start;
+    
+
+    .example-full-width{
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 220px;
+    }
+
+    .example-form {
+      min-width: 150px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .addBtn{
+      margin-left: 25px;
+      
+    }
+    
+  }
+  
+  .example-box {
+    padding: 10px 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    //cursor: move;
+    background: white;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom:15px ;
+  
+    .pinicon{
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+    
+    .todo-title{
+      flex:1;
+      font-size:medium;
+      text-align: justify;
+      padding-right: 5px;
+      text-decoration: none;
+
+    }
+    
+    .button{
+      transition: .3s;   //anında gitmemesi için .3s verdik
+      //opacity:0;
+      button{
+        height: 24px;
+        line-height: 24px; 
+      }
+    }
+    .button2{
+      transition: .3s;   //anında gitmemesi için .3s verdik
+      opacity:0;
+      button{
+        height: 24px;
+        line-height: 24px; 
+      }
+    }
+    &:hover{  // kutunun üzerine geldiğimizde delete butonu iconu gözükür hale gelsin diye yaptık
+      .button2{
+        opacity: 1;
+      }
+    }
+  }
+
+  .example-box:last-child {
+    border: none;
+  }
+
+  
+
+  
+  
+ 
